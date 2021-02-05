@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--[if lt IE 9
+      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script
+    ><![endif]-->
+    <title>Evo Tera</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="css/css-reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/modalx.js"></script>
+    <script src="js/slider.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="menu-top">
+          <ul class="menu-top-left">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="server-info.html">Server info</a></li>
+            <!-- <li>
+              <a href="">Media</a>
+              <ul>
+                <li><a href="">Forum</a></li>
+                <li><a href="">Registration</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Youtube</a></li>
+              </ul>
+            </li> -->
+            <li><a href="downloads.html">Download</a></li>
+          </ul>
+          <ul class="menu-top-right">
+            <li>
+              <a href="">Events</a>
+              <!-- <ul>
+                <li><a href="">Forum</a></li>
+                <li><a href="">Registration</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Youtube</a></li>
+              </ul> -->
+            </li>
+            <li>
+              <a href="http://forums.evogn.com/" target="_blank">Forums</a>
+            </li>
+            <li>
+              <a href="https://discord.gg/YrfVmnGJKk" _target="_blank"
+                >Discord</a
+              >
+            </li>
+          </ul>
+          <div class="server-load"></div>
+          <!-- server-load -->
+          <div class="logo">
+            <a href=""></a>
+          </div>
+          <!-- logo -->
+        </div>
+        <!-- menu-top -->
+      </header>
+      <!-- .header-->
+
+      <div class="container">
+        <main class="content">
+          <div class="top-content-block">
+            <div class="download-bonus-block">
+              <div class="download">
+                <a href="">
+                  <span>Downloads</span>
+                </a>
+              </div>
+              <!-- download -->
+              <div class="bonus-block">
+                <a
+                  href="http://forums.evogn.com/"
+                  target="_blank"
+                  class="bonus"
+                >
+                  <p>FORUMS</p>
+                  <span style="color: white">Our Forums</span>
+                </a>
+                <a href="" class="facebook">
+                  <p>Facebook</p>
+                  <span style="color: white">Coming Soon</span>
+                </a>
+                <a
+                  href="https://discord.gg/YrfVmnGJKk"
+                  target="_blank"
+                  class="support"
+                >
+                  <p>Support</p>
+                  <span style="color: white">Join Discord</span>
+                </a>
+                <a
+                  href="http://store.evogn.com/product-category/tera/"
+                  target="_blank"
+                  class="shop"
+                >
+                  <p>Donate</p>
+                  <span style="color: white">Donate Shop</span>
+                </a>
+              </div>
+              <!-- bonus-block -->
+            </div>
+            <!-- download-bonus-block -->
+            <div class="slider">
+              <div class="next"></div>
+              <div class="prev"></div>
+              <div class="slides">
+                <div class="slide active">
+                  <img src="images/slider-img3.jpg" alt="" />
+                  <h2>Evolution Tera</h2>
+                  <p>Now officially live!</p>
+                  <div>
+                    <a href="">News</a> <span>15.01.2021</span> - Server is
+                    Officialy Live!
+                  </div>
+                </div>
+                <!-- <div class="slide">
+                  <h2>Evolution Tera</h2>
+                  <p>Patch 92: PvE and PvP Update</p>
+                  <img src="images/slider-img2.jpg" alt="" />
+                  <div>
+                    <a href="">News</a> <span>31.12.2020</span> - Server is
+                    Officialy Live!
+                  </div>
+                </div>
+                <div class="slide">
+                  <h2>Evolution Tera</h2>
+                  <p>Update announcement!</p>
+                  <img src="images/slider-img3.jpg" alt="" />
+                  <div>
+                    <a href="">News</a> <span>31.12.2020</span> - Server is
+                    Officialy Live!
+                  </div>
+                </div> -->
+              </div>
+              <div class="navigation"></div>
+            </div>
+            <!-- slider-block -->
+          </div>
+          <!-- top-content-block -->
+          <div class="content-block-info">
+            <div class="left-content-block-info">
+              <div class="news-block">
+                <div class="content-title">
+                  <span class="title">Latest News</span>
+                </div>
+                <!-- content-title -->
+                <div class="news-tab tab-button">
+                  <button data-tab="news-1" class="btn-block-n active button-n">
+                    News
+                  </button>
+                  <button data-tab="news-2" class="btn-block-n button-n">
+                    Events
+                  </button>
+                  <button
+                    data-tab="news-3"
+                    class="btn-block-n button-n"
+                    id="patchNotes"
+                  >
+                    Patch Notes
+                  </button>
+                </div>
+                <div class="tab-n news active" id="news-1">
+                  <div class="last-news-block">
+                    <div class="news-img">
+                      <img src="images/news-img.jpg" alt="news-img" />
+                    </div>
+                    <div class="last-news-info">
+                      <h2>
+                        <a href="">Server is Officially Open!</a>
+                      </h2>
+                      <div class="news-text">
+                        We are glad to announce Evo Tera is officially open.
+                        Let's join epic fights in battlegrounds and CU, let's
+                        clear easiest to hardest dungeon together!
+                      </div>
+                      <!-- last-news-info -->
+                    </div>
+                  </div>
+                  <div class="news-info">
+                    <!-- <a href="" class="blue-a green-a news-read-more"
+                      >Read more</a
+                    > -->
+                    <span>01.01.2021 </span> - Patch Released.
+                  </div>
+                </div>
+                <!-- tab -->
+                <div class="tab-n news" id="news-2">
+                  <div class="last-news-block">
+                    <!-- <div class="news-img">
+                      <img src="images/news-img.jpg" alt="news-img" />
+                    </div> -->
+                    <div class="last-news-info">
+                      <h2>
+                        <a href="">Coming Soon!</a>
+                      </h2>
+                      <!-- last-news-info -->
+                    </div>
+                  </div>
+                </div>
+                <!-- tab -->
+                <div class="tab-n news" id="news-3">
+                  <div class="last-news-block">
+                    <div class="last-news-info">
+                      <h2>
+                        <a href="">Patch notes 01/01/2021</a>
+                      </h2>
+                      <div class="news-text">
+                        <p>
+                          - Gear rolls have been changed, all white-, blue- and
+                          worst golden rolls have been removed, so only purple-
+                          and best yellow rolls remain
+                        </p>
+                        <p>
+                          - VIP5 is now available to ALL players, the
+                          requirement being, that you complete one Vanguard
+                          after level 65
+                        </p>
+                        <p>
+                          - VIP levels are now farmable and are tied to the
+                          vanguard system
+                        </p>
+                        <p>
+                          - RK-9 Kennel- and Red Refuge have had their loot
+                          table adjusted, they will no longer drop
+                          Honed/Annealed Dark Shard Cohesion Arcane's, and the
+                          amount of wooden-, silver- and golden boxes have been
+                          adjusted as well
+                        </p>
+                        <p>
+                          - Brooch-, Belt- and Mask drop rate have been
+                          increased in Forbidden Arena-, Bahaar- and Corrupted
+                          Skynest Hard Mode, while Mask drop rate has been
+                          reduced in Corrupted Skynest Normal mode
+                        </p>
+                        <p>
+                          - New characters will no longer receive bank- and
+                          character expansions
+                        </p>
+                        <p>
+                          - Elleon's Mark's have had their shop properly
+                          updated, along with implementation of Nature's Aura
+                        </p>
+                        <p>
+                          - Cleaned up the Specialty- and Vanguard merchants
+                        </p>
+                        <p>- Added Elinu's Aged Tear to Vanguard merchant</p>
+                        <p>
+                          - Fixed Banyaka's Treasure Chest, it will now properly
+                          drop 1x Banyaka's Rootlocked Treasure
+                        </p>
+                        <p>
+                          - Skill Advancements have had their gold cost reduced,
+                          however they will show their original price,
+                          furthermore if you do not have the amount of gold,
+                          that's visible on the enchant button, you will not be
+                          able to advance your skill, however only half the cost
+                          will be substracted, working on a permanent fix
+                        </p>
+                        <p>
+                          - Removed the unused NPC's from Highwatch- and Velika
+                        </p>
+                        <p>
+                          - Skill learning costs slighty reduced to improve
+                          gameplay
+                        </p>
+                        <p>
+                          - Updated the Meruma Dream Token shop, they now have
+                          proper names
+                        </p>
+                        <p>
+                          - Updated the Goldinger Token shop, so they now
+                          properly sell the laundry boxes, corresponding to the
+                          current patch
+                        </p>
+                        <p>
+                          - Added Tera Club to the game, it will be available at
+                          a later date
+                        </p>
+                        <p>
+                          - Changed guild box rewards to drop Legacy Essences
+                          instead of the former pots etc.
+                        </p>
+                        <p>
+                          - Fixed PvP in certain zones, especially around main
+                          cities
+                        </p>
+                        <p>
+                          - Fixed some costumes, which weren't dismantlable- or
+                          disposable, they can now properly be dealt with as any
+                          other costume
+                        </p>
+                        <p>
+                          - Strongbox Keys now properly light up the boxes, that
+                          they're eligible for
+                        </p>
+                        <p>
+                          - Increased the amount of Bellicarium credits you earn
+                          from battlegrounds
+                        </p>
+                        <p>- Various client updates</p>
+                      </div>
+                      <!-- last-news-info -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- news-block -->
+              <div class="carousel-block">
+                <div class="content-title title-carousel c-title">
+                  <span class="title">Favorite Battlegrounds and Dungeons</span>
+                </div>
+                <!-- content-title -->
+                <div id="carousel" class="carousel">
+                  <button class="arrow prev"></button>
+                  <div class="gallery">
+                    <ul class="images">
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-1.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Bahaar Sanctum</p>
+                          <span>5-man party</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-2.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Shore Hold</p>
+                          <span>7vs7</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-3.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Corsair's Sthold.</p>
+                          <span>20vs20</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-4.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Corrupted Skynest</p>
+                          <span>500 coins</span>
+                        </div>
+                      </li>
+                      <!-- <li>
+                        <div class="item-s">
+                          <img src="images/item-1.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Magic Sword</p>
+                          <span>300 coins</span>
+                          <button class="green-a">Buy Now</button>
+                        </div>
+                      </li> -->
+                      <!-- <li>
+                        <div class="item-s">
+                          <img src="images/item-2.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Magic Axe</p>
+                          <span>400 coins</span>
+                          <button class="green-a">Buy Now</button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-3.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Mystic Shield</p>
+                          <span>200 coins</span>
+                          <button class="green-a">Buy Now</button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-4.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Huma Knife</p>
+                          <span>500 coins</span>
+                          <button class="green-a">Buy Now</button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-3.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Mystic Shield</p>
+                          <span>200 coins</span>
+                          <button class="green-a">Buy Now</button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-s">
+                          <img src="images/item-4.png" alt="" />
+                        </div>
+                        <div class="item-price">
+                          <p>Huma Knife</p>
+                          <span>500 coins</span>
+                          <button class="green-a">Buy Now</button>
+                        </div>
+                      </li> -->
+                    </ul>
+                  </div>
+                  <button class="arrow next"></button>
+                </div>
+                <!-- carousel -->
+              </div>
+              <!-- carousel-block -->
+            </div>
+            <!-- left-content-block-info -->
+            <div class="right-content-block-info">
+              <div class="media-block-i">
+                <div class="content-title">
+                  <a href="">More</a>
+                  <span class="title">Media</span>
+                </div>
+                <!-- content-title -->
+                <div class="media-tab tab-button">
+                  <button
+                    data-tab="media-1"
+                    class="btn-block-s active button-n"
+                  >
+                    Video
+                  </button>
+                  <!-- <button data-tab="media-2" class="btn-block-s button-n">
+                    Screens
+                  </button>
+                  <button data-tab="media-3" class="btn-block-s button-n">
+                    Fan Art
+                  </button> -->
+                </div>
+                <div class="tab-s media active" id="media-1">
+                  <div class="media-block">
+                    <div class="media-block-top">
+                      <a onclick='new modal("#video_modal"); return false'
+                        ><img src="images/media-img-1.jpg" alt="Video"
+                      /></a>
+                    </div>
+                    <!-- <div class="media-block-bottom">
+                      <a onclick='new modal("#video_modal"); return false'
+                        ><img src="images/media-img-2.jpg" alt="Video"
+                      /></a>
+                      <a onclick='new modal("#video_modal"); return false'
+                        ><img src="images/media-img-3.jpg" alt="Video"
+                      /></a>
+                    </div> -->
+                  </div>
+                  <!--media-block -->
+                </div>
+                <!-- tab -->
+                <div class="tab-s media" id="media-2">2</div>
+                <!-- tab -->
+                <div class="tab-s media" id="media-3">3</div>
+                <!-- tab -->
+              </div>
+              <!-- media-block -->
+              <div class="discussion-block">
+                <div class="content-title c-title">
+                  <a href="http://forums.evogn.com/" target="_blank">Forum</a>
+                  <span class="title">Discussions</span>
+                </div>
+                <div class="forum">
+                  <div class="forum-title">
+                    <p>Coming Soon!</p>
+                  </div>
+                </div>
+                <!-- content-title -->
+                <!-- <div class="forum">
+                  <img src="images/forum-ava-1.jpg" alt="forum-ava" />
+                  <div class="forum-title">
+                    <a href="">The Spring Cleaning 2018 Update</a>
+                  </div>
+                  <div class="forum-autor">
+                    by <a href="">Lich</a> <span>5 minutes ago</span>
+                  </div>
+                </div> -->
+                <!-- <div class="forum">
+                  <img src="images/forum-ava-2.jpg" alt="forum-ava" />
+                  <div class="forum-title">
+                    <a href=""
+                      >We’ve heard the community talking heard the community
+                      talking</a
+                    >
+                  </div>
+                  <div class="forum-autor">
+                    by <a href="">Ranger</a> <span>Today at 10:30</span>
+                  </div>
+                </div> -->
+                <!-- <div class="forum">
+                  <img src="images/forum-ava-3.jpg" alt="forum-ava" />
+                  <div class="forum-title">
+                    <a href="">DotaTV Streaming</a>
+                  </div>
+                  <div class="forum-autor">
+                    by <a href="">VeryLongNickName</a>
+                    <span>Today at 05:30</span>
+                  </div>
+                </div>
+                <div class="forum">
+                  <img src="images/forum-ava-4.jpg" alt="forum-ava" />
+                  <div class="forum-title">
+                    <a href="">Regarding Galaxy Battles Major</a>
+                  </div>
+                  <div class="forum-autor">
+                    by <a href="">Navi</a> <span>Yesterday at 23:56</span>
+                  </div>
+                </div>
+                <div class="forum">
+                  <img src="images/forum-ava-5.jpg" alt="forum-ava" />
+                  <div class="forum-title">
+                    <a href="">Regarding Galaxy Battles Major</a>
+                  </div>
+                  <div class="forum-autor">
+                    by <a href="">Navi</a> <span>Yesterday at 23:56</span>
+                  </div>
+                </div> -->
+              </div>
+              <!--discussion-block -->
+            </div>
+            <!-- right-content-block-info -->
+          </div>
+        </main>
+        <!-- .content -->
+
+        <aside class="sidebar">
+          <div class="shop-block">
+            <div class="shop ninja">
+              <p>Starter Guide</p>
+              <span>From 0 to 70 in 2 days!</span>
+              <a
+                href="https://docs.google.com/document/d/1-mb4_O3iBwN3AVH_qxRacnxlG0fvC0DFBGn1msFZ-io/edit?usp=sharing"
+                target="_blank"
+                class="blue-a"
+                >Read</a
+              >
+            </div>
+            <div class="shop sura">
+              <p>Gearing Guide</p>
+              <span>Best ways to gear up.</span>
+              <a
+                href="https://docs.google.com/document/d/1DHl-NnOolc-ljkMd3EaAiOndQTIkFU1b5fmjMN73v08/edit?usp=sharing"
+                target="_blank"
+                class="blue-a green-a"
+                >Read</a
+              >
+            </div>
+            <div class="shop szarfa">
+              <p>PvE Guide</p>
+              <span>Raiding & more..</span>
+              <a href="" class="blue-a">Read</a>
+            </div>
+          </div>
+          <!-- shop-block -->
+          <div class="login-block">
+            <div class="login-block-b">
+              <form class="login-form block-p">
+                <div class="login-title">
+                  <span
+                    >or
+                    <a onclick='new modal("#reg_modal"); return false'
+                      >&nbsp; sign up</a
+                    ></span
+                  >
+                  Sign In
+                </div>
+                <p><input type="text" name="login" placeholder="Nickname" /></p>
+                <p>
+                  <input type="password" name="pass" placeholder="Password" />
+                </p>
+                <div class="license">
+                  <input
+                    id="check"
+                    type="checkbox"
+                    name="check"
+                    value="check"
+                  />
+                  <label for="check">Keep me logged in</label>
+                </div>
+                <button class="login-button button-n">Continue</button>
+                <a href="" class="lost-pass">Lost Password ?</a>
+              </form>
+              <form class="lk-form block-l" style="display: none">
+                <div class="lk-title">
+                  <button class="gold-a">deposit</button>
+                  <span class="coins">500 coins</span>
+                  <span class="username">Username</span>
+                </div>
+                <ul>
+                  <li><a href="">Items Shop</a></li>
+                  <li>
+                    <a href="">My Friends <b>+2</b> <span>234</span></a>
+                  </li>
+                  <li><a href="">Account Settings</a></li>
+                  <li><a href="">Vote For Coins</a></li>
+                  <li><a href="">Buy Coins</a></li>
+                  <li><a href="">Log out</a></li>
+                </ul>
+              </form>
+            </div>
+          </div>
+          <!-- login-block -->
+          <div class="best-players">
+            <div class="sidebar-title best-players-title">
+              Top Guilds <span>TOP <b>5</b></span>
+            </div>
+            <div class="top-players block-p block-bt">
+              <div class="player-info">
+                <div class="top-number">1.</div>
+                <!-- <div class="top-ava">
+                  <img src="images/dota-ava-1.png" alt="" />
+                  <img src="images/dota-ava-1.png" alt="" class="bloor-ava" />
+                </div> -->
+                <div class="top-name">Coming Soon</div>
+                <div class="top-r">
+                  <span>Lv 0</span>
+                </div>
+              </div>
+              <div class="player-info">
+                <div class="top-number">2.</div>
+                <!-- <div class="top-ava">
+                  <img src="images/dota-ava-2.png" alt="" />
+                  <img src="images/dota-ava-2.png" alt="" class="bloor-ava" />
+                </div> -->
+                <div class="top-name">Coming Soon</div>
+                <div class="top-r">
+                  <span>Lv 0</span>
+                </div>
+              </div>
+              <div class="player-info">
+                <div class="top-number">3.</div>
+                <!-- <div class="top-ava">
+                  <img src="images/dota-ava-3.png" alt="" />
+                  <img src="images/dota-ava-3.png" alt="" class="bloor-ava" />
+                </div> -->
+                <div class="top-name">Coming Soon</div>
+                <div class="top-r">
+                  <span>Lv 0</span>
+                </div>
+              </div>
+              <div class="player-info">
+                <div class="top-number">4.</div>
+                <!-- <div class="top-ava">
+                  <img src="images/dota-ava-4.png" alt="" />
+                  <img src="images/dota-ava-4.png" alt="" class="bloor-ava" />
+                </div> -->
+                <div class="top-name">Coming Soon</div>
+                <div class="top-r">
+                  <span>Lv 0</span>
+                </div>
+              </div>
+              <div class="player-info">
+                <div class="top-number">5.</div>
+                <!-- <div class="top-ava">
+                  <img src="images/dota-ava-5.png" alt="" />
+                  <img src="images/dota-ava-5.png" alt="" class="bloor-ava" />
+                </div> -->
+                <div class="top-name">Coming Soon</div>
+                <div class="top-r">
+                  <span>Lv 0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- best-players -->
+          <div class="fast-links-block">
+            <div class="sidebar-title">Fast links</div>
+            <div class="block-p block-t">
+              <ul>
+                <li>
+                  <a
+                    href="http://store.evogn.com/product-category/tera/"
+                    target="_blank"
+                    >Donate</a
+                  >
+                </li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li>
+                  <a href="http://forums.evogn.com/" target="_blank">Forums</a>
+                </li>
+                <li><a href="">Events</a></li>
+                <li>
+                  <a href="https://discord.gg/YrfVmnGJKk" target="_blank"
+                    >Discord</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- fast-links-block -->
+        </aside>
+        <!-- sidebar -->
+      </div>
+      <!-- .container-->
+
+      <footer class="footer">
+        <div class="footer-links-block">
+          <div class="footer-links-block-i">
+            <div class="footer-top">
+              <div class="footer-logo">
+                <a href="/"></a>
+              </div>
+              <div class="footer-s">
+                <!-- <span><a href="">Adversting</a></span>
+                <span><a href="">Administrator Blog</a></span> -->
+                <span><a href="downloads.html">Downloads</a></span>
+                <!-- <span><a href="">Partnership</a></span> -->
+                <span><a href="">Contacts</a></span>
+                <span
+                  ><a href="http://store.evogn.com/product-category/tera/"
+                    >Items Market</a
+                  ></span
+                >
+                <!-- <span><a href="">Terms of Use</a></span> -->
+                <span><a href="">About Us</a></span>
+              </div>
+            </div>
+            <!-- footer-top -->
+          </div>
+        </div>
+        <!-- footer-links-block -->
+        <div class="footer-nav">
+          <div class="soc-links">
+            <a href="" class="facebook"></a> <a href="" class="inst"></a>
+            <a href="" class="twitter"></a>
+          </div>
+          <div class="f-menu">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li>
+                <a href="http://forums.evogn.com/" target="_blank">Forums</a>
+              </li>
+              <li><a href="downloads.html">Download</a></li>
+              <li><a href="">Events</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- footer-nav -->
+        <div class="footer-info">
+          <div class="terms">license terms of services</div>
+          <div class="copyright">
+            © copyright - Evo Tera <br />
+            all right reserved.
+          </div>
+          <div id="toTop"></div>
+        </div>
+        <!-- footer-info -->
+      </footer>
+      <!-- .footer -->
+    </div>
+    <!-- .wrapper -->
+
+    <!-- Video Modal -->
+    <div class="modal_window" id="video_modal">
+      <a href="#" class="close_mw close-r"></a>
+      <iframe
+        width="1000"
+        height="540"
+        src="https://www.youtube.com/watch?v=xFTUeqt6DGU"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- reg Modal -->
+    <div class="modal_window" id="reg_modal">
+      <a href="#" class="close_mw close-r"></a>
+      <div class="popup-block">
+        <div class="reg-title">
+          <span>or <a href="/">sign in</a></span>
+          Sign Up
+        </div>
+        <div class="connect-f">
+          <button class="button-n"></button>
+        </div>
+        <div class="or">
+          <span>or</span>
+        </div>
+        <div class="reg-form">
+          <form>
+            <p>Nickname</p>
+            <input type="text" name="name" placeholder="Nickname" />
+            <p>E-mail</p>
+            <input type="text" name="mail" placeholder="E-mail" />
+            <div class="pass first-pass">
+              <p>Password:</p>
+              <input type="password" name="pass" placeholder="Password" />
+            </div>
+            <div class="pass">
+              <p>Confirm password:</p>
+              <input
+                type="password"
+                name="pass"
+                placeholder="Confirm password"
+              />
+            </div>
+            <div class="license license-l">
+              <div>
+                <input id="check1" type="checkbox" name="check" value="check" />
+                <label for="check1">Keep me logged in</label>
+              </div>
+              <div>
+                <input id="check2" type="checkbox" name="check" value="check" />
+                <label for="check2">Send me news & updates</label>
+              </div>
+              <div>
+                By creating an account you agree to our
+                <a href="">terms of service</a>
+              </div>
+            </div>
+            <div class="reg-buttons">
+              <button class="sign but button-n">Sign in</button>
+              <button class="cont button-n login-button">Continue</button>
+              <button class="but button-n">Cancel</button>
+            </div>
+          </form>
+        </div>
+        <!-- reg-form -->
+      </div>
+      <!-- popup-block -->
+    </div>
+    <script>
+      $("#counter").html(
+        '<object data="http://116.202.208.152:81/server/online.php"/>'
+      );
+    </script>
+    <script>
+      $(".btn-block-s").click(function () {
+        $(".btn-block-s").removeClass("active");
+        $(this).addClass("active");
+        $(".tab-s").removeClass("active");
+        $("#" + $(this).attr("data-tab")).addClass("active");
+      });
+      $(".btn-block-n").click(function () {
+        $(".btn-block-n").removeClass("active");
+        $(this).addClass("active");
+        $(".tab-n").removeClass("active");
+        $("#" + $(this).attr("data-tab")).addClass("active");
+      });
+    </script>
+    <script>
+      var lis = document.getElementsByTagName("li");
+
+      var width = 135;
+      var count = 4;
+
+      var carousel = document.getElementById("carousel");
+      var list = carousel.querySelector("ul");
+      var listElems = carousel.querySelectorAll("li");
+
+      var position = 0;
+
+      carousel.querySelector(".prev").onclick = function () {
+        position = Math.min(position + width * count, 0);
+        list.style.marginLeft = position + "px";
+      };
+
+      carousel.querySelector(".next").onclick = function () {
+        position = Math.max(
+          position - width * count,
+          -width * (listElems.length - count)
+        );
+        list.style.marginLeft = position + "px";
+      };
+    </script>
+    <script>
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() != 0) {
+            $("#toTop").fadeIn();
+          } else {
+            $("#toTop").fadeOut();
+          }
+        });
+        $("#toTop").click(function () {
+          $("body,html").animate({ scrollTop: 0 }, 800);
+        });
+      });
+    </script>
+  </body>
+</html>
