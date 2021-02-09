@@ -1,0 +1,447 @@
+
+/*
+Studio development - Rubic-on
+Skype - virusok3740
+rubic-on.com
+*/
+@media screen and (max-width: 1280px) {
+	.wrap{
+		width: auto;
+		margin: 0px 10px;
+	}
+	.right-side {
+		margin: 10px;
+		width: 33%
+	}
+	.left-side {
+		margin: 10px; 
+		width: 58%;
+	}
+	.server-start i {
+		display: none;
+	}
+	.server-buttons-link {
+		padding: 4px 4px;
+		margin: 1px;
+		margin-top: 5px;
+		margin-right: 2px;
+	}
+	.server-buttons.f-c {
+		margin-right: 5px;
+	}
+	.top-info-player {
+		width: auto;
+	}
+	.bg-image-sky {
+		margin-top: 20px;
+	}
+	.pagestream-item {
+		text-align: center;
+		margin: 2px auto;
+	}
+	.bgimage-container {
+		height: 96%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.bg-image-sky {
+		margin-top: 0px;
+	}
+	.forum-topic-name {
+		margin-top: 0px;
+	}
+	.forum-topic-button {
+		font-size: 12px;
+	}
+	.prestream-stream{
+		width: 100%;
+	}
+	.gs-info {
+		width: 70%;
+	}
+	.gs-link {
+		margin-top: 8px;
+	}
+	.footer-nav-link a {
+		padding: 5px 5px;
+	}
+	.footer-nav-dline {
+		margin: 5px;
+	}
+	.footer-logo {
+		padding: 15px;
+	}
+	.footer-logo img {
+		margin-top: 30px;
+		width: 150px;
+	}
+	.prstream-bgimg {
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	#menuToggle{
+		display: block;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	.lang-select {
+		max-width: 50px;
+		margin-top: 5px;
+	}
+	.gamemenu-desctop{
+		display: none;
+	}
+	.gamemenu-mobile{
+		display: block;
+		position: relative;
+	}
+	/**/
+	.game-topmenu-item-m {
+		text-align: center;
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+		margin: 10px auto;
+	}
+	.gm-topmenu-h {
+		width: 200px;
+		padding: 10px 12px;
+		cursor: pointer;
+		text-transform: uppercase;
+		background: #00000094;
+	}
+	.game-topmenu-item-m ul {
+		display: none; 
+		width: 200px;
+		position: absolute;
+		text-align: center;
+		background: rgb(25 25 25);
+		padding: 10px;
+		z-index: 99;
+		border-radius: 5px;
+		box-shadow: 0px 2px 3px 1px #00000040;
+		border: 2px solid #ffffff0a;
+	}
+	.game-topmenu-item-m li {
+		list-style: none;
+		text-transform: uppercase;
+		margin: 10px;
+	}
+	.game-topmenu-item-m:hover ul {
+		display: block;
+	}
+	.gmtabmenu-readfull {
+		display: none;
+	}
+
+	.bgimage-container {
+		height: 95%;
+	}
+}
+@media screen and (max-width: 868px) {
+	.tabnav {
+		width: 100%;
+	}
+	.tabnav-line {
+		display: none;
+	}
+	.tabcontent {
+		width: 100%;
+		margin-top: 5px;
+	}
+	.bgimage-container {
+		height: 92%;
+	}
+	.preloader-img {
+		margin: 20vh auto;
+		width: 300px;
+		background: none;
+		box-shadow: none;
+		border-top: none !important;
+		border-bottom: none !important;
+		border-radius: 0;
+	}
+	.preload-load-page{
+		display: none;
+	}
+	.barras {
+		width: auto;
+	}
+	.ncontent-info-item {
+		font-size: 10px;
+		margin: 10px 2px 0px;
+		padding-top: 10px;
+	}
+	.ncontent-infomore {
+		padding: 5px 10px;
+		margin: 12px 10px 5px;
+		color: #6e6e6e;
+	}
+	.barra {
+		width: 164px;
+	}
+	.bg-image-sky {
+		display: none;
+	}
+	.server-start i {
+		display: block;
+	}
+	#slider {
+		width: auto; 
+	}
+	.slide-title {
+		font-size: 21px;
+	}
+	.slider-wrapper {
+		font-size: 14px;
+	}
+	.social-name {
+		display: none;
+	}
+	.social-icon {
+		width: 50px;
+		height: 50px;
+		left: -15px;
+		background: #0000006b;
+		box-shadow: none; 
+	}
+	.social-icon:hover {
+		background: #191919;
+	}
+	.social-icon img {
+		width: 30px;
+		height: 30px;
+	}
+	.social-buttons {
+		top: 10%;
+	}
+	.event-game-img img {
+		width: 44px;
+	}
+	.active-events{
+		height: auto;
+	}
+	.event-game-img {
+		width: auto;
+		height: auto;
+		background: none;
+	}
+	.event-item {
+		width: auto;
+		margin: 5px;
+	}
+	.event-text {
+		text-align: center;
+		width: auto; 
+	}
+	.left-side {
+		width: 100%;
+	}
+	.right-side {
+		width: 100%;
+		background: #00000038;
+		padding: 10px;
+		border: 2px solid #1c1c1c;
+	}
+	.prestream-stream {
+		width: 47%;
+	}
+	.footer-logo {
+		padding: 5px;
+		width: auto;
+		background: none;
+	}
+	.footer-logo img {
+		margin-top: 50px;
+		width: 110px;
+	}
+	.gs-link {
+		margin-top: 0px;
+	}
+	input[id^="spoiler"] ~ .spoiler {
+		height: 0;
+		overflow: hidden;
+		opacity: 0;
+		transition: all .6s;
+	}
+	input[id^="spoiler"] + label {
+		display: block;
+	}
+	.last-news-nfirst-navigate {
+		position: relative;
+	}
+	.pagestream-item{
+		width: 70%;
+	}
+	.pagestream-addstream {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 480px) {
+	.bgimage-container {
+		height: 87%;
+	}
+	.event-item {
+		width: 90%;
+		justify-content: center;
+	}
+	.event-game-img img {
+		width: 50px;
+		margin-top: 20px;
+	}
+	.event-game-img {
+		width: 70px;
+		background: rgb(0 0 0 / 0.3);
+	}
+	.wrap {
+		margin: 0px; 
+	}
+	.last-news-nfirst-img {
+		display: none;
+	}
+	.ln-info-contant.f-s {
+		width: 55%;
+	}
+	.ln-info-block {
+		font-size: 11px;
+		padding: 5px 5px;
+		text-align: center;
+	}
+	.last-news-nfirst-navigate .ln-info-button {
+		margin-top: 10px;
+	}
+	.prestream-stream {
+		width: 43%;
+	}
+	.studio-copy-desctop{
+		display: none;
+	}
+	.studio-copy-mob{
+		display: block;
+	}
+	.footer-logo-project {
+		display: none;
+	}
+	.footer-nav {
+		width: 100%; 
+		margin: 0;
+	}
+	.footer-nav-dline {
+		display: none;
+	}
+	.footer-nav-link {
+		display: block;
+	}
+	.footer-nav-link a {
+		border: none;
+		display: block;
+		width: auto;
+		text-align: center;
+	}
+	.footer-nav-link a:hover {
+		border: none;
+		background: none;
+	}
+	.footer-nav h3 {
+		font-size: 16px;
+		text-align: center;	
+	}
+	.footer-nav-link a {
+		background: #00000059;
+		margin: 1px;
+		padding: 7px 0px;
+	}
+	.footer-copy {
+		background: none;
+		font-size: 12px;
+		margin: 0 auto;
+		opacity: 0.3;
+	}
+	.studio-copy-mob {
+		display: block;
+		background: #151515;
+	}
+	.footer-logo img {
+		margin-top: 0px;
+		width: 100px;
+	}
+	.studio-copy-mob span {
+		margin-bottom: 10px;
+		position: relative;
+		top: -17px;
+		left: 10px;
+		font-size: 10px;
+		text-transform: uppercase;
+		color: #ffffff45;
+	}
+	.gameselect-overlay {
+		position: relative;
+	}
+	.gameselect-online {
+		position: relative;
+		top: 0px;
+		left: 0px;
+		background: none;
+	}
+	.gameselect-info {
+		position: relative;
+		bottom: 0px;
+		background: rgb(0 0 0 / 35%);
+	}
+	.gameselect-info-contant{
+		display: block;
+	}
+	.gs-info {
+		width: 100%;
+	}
+	.gs-link {
+		float: unset;
+		margin: 0 auto
+	}
+	.gs-button {
+		background: #ffffff14;
+		padding: 5px 0px 12px;
+		width: auto; 
+		display: block;
+		text-align: center;
+		border-radius: 10px;
+		text-transform: uppercase;
+		color: #78182d;
+		margin-top: 8px;
+		position: relative;
+		top: 0px;
+		box-shadow: 0px 0px 3px 1px #0006;
+		transition: 0.3s;
+	}
+	.ln-fullnews-link {
+		display: none;
+	}
+	.social-buttons {
+		display: none;
+	}
+	.header-logo {
+		width: 200px;
+	}
+	.prbanner {
+		display: none;
+	}
+	.staticform {
+		width: auto;
+	}
+	.staticbutton {
+		width: 200px;
+	}
+	.statickbutton-other {
+		width: 200px;
+	}
+	.preloader-img img {
+		width: 200px;
+		padding: 30px;
+	}
+	.static-title {
+		font-size: 16px;
+	}
+}

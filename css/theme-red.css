@@ -1,0 +1,89 @@
+/*ORANGE-DARK*/
+.title-name{
+	color: #822626;
+}
+.header-login i{
+	color: #822626;
+}
+.event-time {
+	color: #822626;
+}
+.gs-button {
+	color: #822626;
+}
+.gs-button:hover {
+	background: #822626;
+}
+.last-news-title {
+	color: #822626;
+}
+.ln-info-button {
+	border: 1px solid #822626;
+}
+.joinnow-button {
+	background: #822626;
+}
+.forumtopic-header{
+	color: #822626;
+}
+.forum-topic-button {
+	border: 1px solid #822626;
+}
+.forum-topic-button:hover {
+	background: #822626;
+}
+.topinfo-header{
+	color: #822626;
+}
+.prstream-header{
+	color: #822626;
+}
+.footer-dline{
+	background: #822626;
+}
+#menu li {
+	color: #822626;
+}
+.mobile-login {
+	background: #822626 !important;
+}
+.preloader-img {
+    border-top: 4px solid #822626;
+    border-bottom: 4px solid #822626;
+}
+.onlineblock-buttons-start {
+    background: #822626;
+}
+.ncontent-title {
+	background: #822626;
+}
+.ncontent-table-icon {
+	border: 1px solid #822626;
+}
+.ncontent-infomore:hover {
+	background: #822626;
+}
+.gmtabmenu-title {
+	color: #822626;
+}
+.tabnav li a {
+	border-left: 3px solid #822626;
+}
+.tabnav li a:hover,
+.tabnav li a.active{
+	background: #822626;
+}
+.tabcontent::-webkit-scrollbar-thumb {
+  background: #822626;
+}
+.tabcontent {
+  scrollbar-face-color: #822626;
+}
+.game-topmenu-item:hover {
+	border-top: 2px solid #822626;
+	border-bottom: 2px solid #822626;
+	color: #822626;
+}
+.lamps{
+	background: url("../img/lamp-orange.png");
+}

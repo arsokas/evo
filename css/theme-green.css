@@ -1,0 +1,89 @@
+/*GREEN*/
+.title-name{
+	color: #18781b;
+}
+.header-login i{
+	color: #18781b;
+}
+.event-time {
+	color: #18781b;
+}
+.gs-button {
+	color: #18781b;
+}
+.gs-button:hover {
+	background: #18781b;
+}
+.last-news-title {
+	color: #18781b;
+}
+.ln-info-button {
+	border: 1px solid #18781b;
+}
+.joinnow-button {
+	background: #18781b;
+}
+.forumtopic-header{
+	color: #18781b;
+}
+.forum-topic-button {
+	border: 1px solid #18781b;
+}
+.forum-topic-button:hover {
+	background: #18781b;
+}
+.topinfo-header{
+	color: #18781b;
+}
+.prstream-header{
+	color: #18781b;
+}
+.footer-dline{
+	background: #18781b;
+}
+#menu li {
+	color: #18781b;
+}
+.mobile-login {
+	background: #18781b !important;
+}
+.preloader-img {
+    border-top: 4px solid #18781b;
+    border-bottom: 4px solid #18781b;
+}
+.onlineblock-buttons-start {
+    background: #18781b;
+}
+.ncontent-title {
+	background: #18781b;
+}
+.ncontent-table-icon {
+	border: 1px solid #18781b;
+}
+.ncontent-infomore:hover {
+	background: #18781b;
+}
+.gmtabmenu-title {
+	color: #18781b;
+}
+.tabnav li a {
+	border-left: 3px solid #18781b;
+}
+.tabnav li a:hover,
+.tabnav li a.active{
+	background: #18781b;
+}
+.tabcontent::-webkit-scrollbar-thumb {
+  background: #18781b;
+}
+.tabcontent {
+  scrollbar-face-color: #18781b;
+}
+.game-topmenu-item:hover {
+	border-top: 2px solid #18781b;
+	border-bottom: 2px solid #18781b;
+	color: #18781b;
+}
+.lamps{
+	background: url("../img/lamp-green.png");
+}
